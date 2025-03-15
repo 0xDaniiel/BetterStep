@@ -1,9 +1,13 @@
-import Image from "next/image";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Stats from "@/components/Stats";
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Header />
+      <Hero />
+      <Stats />
     </div>
   );
 }
