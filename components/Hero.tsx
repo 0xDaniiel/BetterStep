@@ -1,6 +1,14 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
 
+const cryptoImages = [
+  {
+    id: 1,
+    source: "/images/bnb.svg",
+    alt: "bnb",
+  },
+];
+
 const Hero = () => {
   return (
     <div className="text-white text-center pt-36">
@@ -20,7 +28,7 @@ const Hero = () => {
       </p>
 
       <section className="flex items-center gap-5 justify-center">
-        <Button>
+        <Button className="cursor-pointer px-5 py-5 bg-white/10">
           <Image
             alt="play-store"
             src={"/images/playstore.svg"}
@@ -30,15 +38,25 @@ const Hero = () => {
           Play store
         </Button>
 
-        <Button>
+        <Button className="bg-gray-300  text-black  hover:bg-white cursor-pointer px-5 py-5">
           <Image
             alt="app-store"
             src={"/images/apple.svg"}
-            width={30}
-            height={30}
+            width={25}
+            height={25}
           />
-          Play store
+          App store
         </Button>
+      </section>
+
+      <section className="flex justify-center items-center  gap-6 my-16">
+        <Image
+          alt="play-store"
+          src={"/images/bnb.svg"}
+          width={50}
+          height={50}
+          className="cursor-pointer p-[0.30rem] bg-white/10  rounded-xl backdrop-blur-md"
+        />
       </section>
     </div>
   );

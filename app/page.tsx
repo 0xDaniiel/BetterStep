@@ -13,9 +13,9 @@ export default function Home() {
         <Hero />
       </div>
 
-      {/* Smaller, more concentrated yellow glow in the center */}
-      <div className="absolute inset-0 flex items-center justify-center z-0">
-        <div className="w-[30%] h-[30%] bg-yellow-400 rounded-full blur-[80px] opacity-40"></div>
+      {/* Larger, softer yellow glow moved down */}
+      <div className="absolute inset-0 flex items-end justify-center z-0 pb-20">
+        <div className="w-[50%] h-[40%] bg-yellow-400 rounded-full blur-[120px] opacity-25"></div>
 
         {/* Image perfectly centered ABOVE the blur */}
         <Image
