@@ -7,11 +7,64 @@ const cryptoImages = [
     source: "/images/bnb.svg",
     alt: "bnb",
   },
+  {
+    id: 2,
+    source: "/images/sol.svg",
+    alt: "sol",
+  },
+
+  {
+    id: 3,
+    source: "/images/flx.svg",
+    alt: "flx",
+  },
+
+  {
+    id: 4,
+    source: "/images/avax.svg",
+    alt: "avax",
+  },
+  {
+    id: 5,
+    source: "/images/react.svg",
+    alt: "react",
+  },
+  {
+    id: 6,
+    source: "/images/sui.svg",
+    alt: "sui",
+  },
+  {
+    id: 7,
+    source: "/images/patho.svg",
+    alt: "patho",
+  },
+  {
+    id: 8,
+    source: "/images/ruby.svg",
+    alt: "ruby",
+  },
+  {
+    id: 9,
+    source: "/images/nexus.svg",
+    alt: "nexus",
+  },
+
+  {
+    id: 10,
+    source: "/images/hex.svg",
+    alt: "hex",
+  },
+  {
+    id: 11,
+    source: "/images/harmony.svg",
+    alt: "harmony",
+  },
 ];
 
 const Hero = () => {
   return (
-    <div className="text-white text-center pt-36">
+    <div className="text-white text-center mt-40">
       <h1
         className="text-5xl font-bold text-transparent bg-clip-text"
         style={{
@@ -27,7 +80,7 @@ const Hero = () => {
         Each step matters.
       </p>
 
-      <section className="flex items-center gap-5 justify-center">
+      <section className="flex items-center gap-5 justify-center my-6">
         <Button className="cursor-pointer px-5 py-5 bg-white/10">
           <Image
             alt="play-store"
@@ -49,14 +102,31 @@ const Hero = () => {
         </Button>
       </section>
 
-      <section className="flex justify-center items-center  gap-6 my-16">
-        <Image
-          alt="play-store"
-          src={"/images/bnb.svg"}
-          width={50}
-          height={50}
-          className="cursor-pointer p-[0.30rem] bg-white/10  rounded-xl backdrop-blur-md"
-        />
+      <section className="my-32 flex flex-col items-center gap-5">
+        <div className="flex justify-center gap-5">
+          {cryptoImages.slice(0, 6).map((image) => (
+            <Image
+              key={image.id}
+              src={image.source}
+              alt={image.alt}
+              width={100}
+              height={100}
+              className="w-[100px] h-[100px] cursor-pointer px-4 py-4 bg-white/10 rounded-xl backdrop-blur-md"
+            />
+          ))}
+        </div>
+        <div className="flex justify-center gap-5">
+          {cryptoImages.slice(6, 11).map((image) => (
+            <Image
+              key={image.id}
+              src={image.source}
+              alt={image.alt}
+              width={100}
+              height={100}
+              className="w-[100px] h-[100px] cursor-pointer px-4 py-4 bg-white/10 rounded-xl backdrop-blur-md"
+            />
+          ))}
+        </div>
       </section>
     </div>
   );
