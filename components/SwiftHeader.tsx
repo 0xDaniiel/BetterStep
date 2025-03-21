@@ -17,7 +17,7 @@ const links = [
   { id: 3, title: "Career", route: "/swift/career" },
 ];
 
-const Header = () => {
+const SwiftHeader = () => {
   return (
     <div className="fixed top-4 left-1/2 -translate-x-1/2 z-20 backdrop-blur-md bg-white/10 shadow-md w-[95%] max-w-7xl rounded-full px-5 py-2 text-white md:w-full">
       <div className="flex flex-wrap justify-between items-center w-full gap-3 md:flex-nowrap">
@@ -39,15 +39,9 @@ const Header = () => {
             </Link>
           ))}
         </div>
-        <Link
-          href={"/swift"}
-          className="bg-gray-300 rounded-full text-black hover:bg-white cursor-pointer px-4 py-1 md:px-6 md:py-2"
-        >
-          Launch App
-        </Link>
       </div>
     </div>
   );
 };
 
-export default Header;
+export default SwiftHeader;
