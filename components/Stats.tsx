@@ -7,36 +7,30 @@ const userStats = [
     value: "+112,256.00",
     unit: "Kcal",
     description: "Calories burnt",
-    image: "/images/scale.svg",
+    image: "/images/hot.svg",
   },
   {
     id: 2,
     value: "+42.75",
-    unit: "Kilometer (Km)",
+    unit: "Meter (m)",
     description: "Distance Covered",
     image: "/images/distance.svg",
   },
 
   {
     id: 3,
-    value: "+98,120.50",
+    value: "+16,120.50",
     unit: "Steps",
     description: "Total Steps",
     image: "/images/users.svg",
   },
-  {
-    id: 3,
-    value: "+42.75",
-    unit: "Km",
-    description: "Distance Covered",
-    image: "/images/users.svg",
-  },
+
   {
     id: 4,
     value: "+7h 30m",
     unit: "Time",
     description: "Active Time",
-    image: "/images/hot.svg",
+    image: "/images/users.svg",
   },
 ];
 
