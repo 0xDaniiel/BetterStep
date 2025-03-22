@@ -3,7 +3,7 @@ import React from "react";
 
 const RoadMap = () => {
   return (
-    <div className="flex justify-center items-center mt-10 px-4">
+    <div className="flex justify-center items-center mt-10 md:mt-20 px-4">
       <Image
         src="/images/earn.svg"
         alt="roadmap"

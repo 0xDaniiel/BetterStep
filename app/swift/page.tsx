@@ -3,6 +3,7 @@ import SwiftHeader from "@/components/SwiftHeader";
 import Image from "next/image";
 import SwiftHero from "@/components/Swifthero";
 import Download from "@/components/Download";
+import NftSection from "@/components/NftSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <SwiftHeader />
         <SwiftHero />
         <Download />
+        <NftSection />
       </div>
       {/* Larger, softer yellow glow moved down */}
       <div className="absolute inset-0 flex items-end justify-center z-0 pb-20">
