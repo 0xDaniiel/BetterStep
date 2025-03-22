@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
 import Stats from "./Stats";
+import RoadMap from "./RoadMap";
 
 const SwiftHero = () => {
   return (
@@ -43,6 +44,7 @@ const SwiftHero = () => {
       </section>
 
       <Stats />
+      <RoadMap />
     </div>
   );
 };
