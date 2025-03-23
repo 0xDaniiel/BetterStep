@@ -14,8 +14,7 @@ export default function Home() {
         <Stats />
         <RoadMap />
         <Features />
-
-        {/* <NftSection /> */}
+        <NftSection />
       </div>
       <div className="absolute inset-0 flex items-end justify-center z-0 pb-20">
         <div className="w-[50%] h-[40%] bg-yellow-400 rounded-full blur-[120px] opacity-25"></div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { NftCard, SimpleNftCard } from "./NftImages";
+import { NftCard, SimpleNftCard } from "./NftCards";
 
 const Features = () => {
   return (

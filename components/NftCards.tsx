@@ -131,7 +131,7 @@ export function SimpleNftCard() {
           </Button>
         </div>
 
-        <p className="text-base text-black text-wrap  max-w-[300px] py-4 font-light">
+        <p className="text-base text-white text-wrap  max-w-[300px] py-4 font-light">
           Turn your steps into earnings and create your art-filled collection
           with our Shoe NFTs.
         </p>
