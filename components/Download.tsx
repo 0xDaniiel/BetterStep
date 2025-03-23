@@ -3,10 +3,12 @@ import React from "react";
 
 const Download = () => {
   return (
-    <div>
+    <div className="min-h-screen">
       <div className="md:flex justify-between grid  text-white">
-        <section>
-          <h1>Download BetterStep</h1>
+        <section className="flex flex-col items-center justify-cnter max-w-3xl mx-auto flex-1/2">
+          <h1 className="text-3xl md:text-5xl font-bold text-white bg-clip-text">
+            Download BetterStep
+          </h1>
           <p>
             Start earning money by walking! Download our app now and convert
             your steps into earnings with our blockchain and

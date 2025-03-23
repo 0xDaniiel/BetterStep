@@ -17,7 +17,7 @@ const cryptoImages = [
 
 const Hero = () => {
   return (
-    <div className="text-white text-center mt-20 px-4 md:mt-40 ">
+    <div className="text-white text-center mt-20 px-4 md:mt-40">
       <h1
         className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text"
         style={{
@@ -34,24 +34,24 @@ const Hero = () => {
       </p>
 
       <section className="flex flex-col md:flex-row items-center gap-5 justify-center my-6">
-        <Button className="cursor-pointer px-5 py-3 bg-white/10 flex items-center gap-2">
+        <Button className="cursor-pointer px-5 py-5 shadow-md bg-white/10 flex items-center gap-2 hover:bg-white/8">
           <Image
             alt="play-store"
             src="/images/playstore.svg"
             width={25}
             height={25}
           />
-          Play Store
+          <span>Play Store</span>
         </Button>
 
-        <Button className="bg-gray-300 flex items-center text-black hover:bg-white cursor-pointer px-5 py-3 gap-2">
+        <Button className="bg-gray-100 flex items-center text-black hover:bg-white cursor-pointer px-5 py-3 gap-2">
           <Image
             alt="app-store"
             src="/images/apple.svg"
-            width={25}
-            height={25}
+            width={20}
+            height={20}
           />
-          App Store
+          <span>App Store</span>
         </Button>
       </section>
 
@@ -69,8 +69,6 @@ const Hero = () => {
           ))}
         </div>
       </section>
-
-      <div className="my-10"></div>
     </div>
   );
 };

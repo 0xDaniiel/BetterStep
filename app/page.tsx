@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-// import Stats from "@/components/Stats";
 
 import Image from "next/image";
 
@@ -29,8 +28,6 @@ export default function Home() {
 
       {/* Slightly wider purple glow, still subtle */}
       <div className="absolute top-0 left-0 w-[30%] h-[25%] bg-purple-700 rounded-full blur-[100px] opacity-50 z-0"></div>
-
-      {/* <Stats /> */}
     </div>
   );
 }
