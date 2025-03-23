@@ -6,8 +6,8 @@ import { Menu, X } from "lucide-react";
 
 const links = [
   { id: 1, title: "Home", route: "/" },
-  { id: 2, title: "Features", route: "/swift/features" },
-  { id: 3, title: "Career", route: "/swift/career" },
+  { id: 2, title: "Features", route: "/about/#features" },
+  { id: 3, title: "FAQ", route: "/about/faq" },
 ];
 
 const SwiftHeader = () => {

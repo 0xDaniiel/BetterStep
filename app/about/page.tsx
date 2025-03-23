@@ -1,10 +1,9 @@
 import SwiftHeader from "@/components/SwiftHeader";
 import SwiftHero from "@/components/Swifthero";
-import Download from "@/components/Download";
-import NftSection from "@/components/NftSection";
+import Features from "@/components/Features";
 import Stats from "@/components/Stats";
 import RoadMap from "@/components/RoadMap";
-
+import NftSection from "@/components/NftSection";
 
 export default function Home() {
   return (
@@ -14,7 +13,7 @@ export default function Home() {
         <SwiftHero />
         <Stats />
         <RoadMap />
-        <Download />
+        <Features />
 
         {/* <NftSection /> */}
       </div>
