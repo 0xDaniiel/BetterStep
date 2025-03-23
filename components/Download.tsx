@@ -1,11 +1,12 @@
-import Image from "next/image";
 import React from "react";
+import { NftImages } from "./NftImages";
+import CountdownTimer from "./CountdownTimer";
 
 const Download = () => {
   return (
-    <div className="min-h-screen">
+    <div className="p-5">
       <div className="md:flex justify-between grid  text-white">
-        <section className="flex flex-col items-center justify-cnter max-w-3xl mx-auto flex-1/2">
+        <section className="flex flex-col gap-4">
           <h1 className="text-3xl md:text-5xl font-bold text-white bg-clip-text">
             Download BetterStep
           </h1>
@@ -15,17 +16,13 @@ const Download = () => {
             cryptocurrency-based experience.
           </p>
         </section>
-        <section>
-          <Image
-            src={"/images/conan.svg"}
-            alt="conan"
-            height={200}
-            width={200}
-          />
-        </section>
+
+        {/* <CountdownTimer /> */}
+
+        <NftImages />
       </div>
 
-      <div className="md:flex justify-between grid  text-white">
+      {/* <div className="md:flex justify-between grid  text-white">
         <section>
           <Image
             src={"/images/conan.svg"}
@@ -44,7 +41,7 @@ const Download = () => {
             earnings.
           </p>
         </section>
-      </div>
+      </div> */}
     </div>
   );
 };
