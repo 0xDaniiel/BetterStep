@@ -7,6 +7,7 @@ import NftSection from "@/components/NftSection";
 import Sponsors from "@/components/Sponsors";
 import TeamInfo from "@/components/TeamInfo";
 import Faq from "@/components/Faq";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
         <Sponsors />
         <TeamInfo />
         <Faq />
+
+        <Footer />
       </div>
       <div className="absolute inset-0 flex items-end justify-center z-0 pb-20">
         <div className="w-[50%] h-[40%] bg-yellow-400 rounded-full blur-[120px] opacity-25"></div>
