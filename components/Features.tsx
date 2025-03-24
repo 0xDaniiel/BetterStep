@@ -24,7 +24,7 @@ const Features = () => {
 
         <section className="flex flex-col gap-4">
           <h1 className="text-3xl md:text-5xl font-bold text-white">
-            <h1>Walk, earn, thrive</h1>
+            Walk, earn, thrive
           </h1>
           <p className="max-w-[450px]">
             The earned rewards are distributed equally in $BTT and $BFF tokens.
