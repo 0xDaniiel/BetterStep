@@ -20,7 +20,7 @@ export function NftCard() {
         <h1 className="text-2xl md:text-3xl font-bold">Better #216</h1>
         <div className="relative w-[200px] h-[200px]">
           <Image
-            src="/images/conan.svg"
+            src="/images/Conan.svg"
             alt="Conan NFT"
             width={200}
             height={200}

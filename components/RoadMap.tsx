@@ -8,7 +8,7 @@ const RoadMap = () => {
         Earn while walking
       </h1>
       <Image
-        src="/images/steps.svg"
+        src="/images/Steps.svg"
         alt="roadmap"
         width={1000}
         height={1000}
