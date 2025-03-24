@@ -39,13 +39,13 @@ const CountdownTimer = () => {
   }, []);
 
   return (
-    <div className="flex gap-2 text-white ">
+    <span className="flex gap-2 text-white ">
       <span>{timeLeft.months}M</span>
       <span>{timeLeft.days}D</span>
       <span>{timeLeft.hours}H</span>
       <span>{timeLeft.minutes}M</span>
       <span>{timeLeft.seconds}S</span>
-    </div>
+    </span>
   );
 };
 
