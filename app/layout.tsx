@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Jost } from "next/font/google";
+import { Jost } from "next/font/google";
 import "./globals.css";
 
 const jost = Jost({

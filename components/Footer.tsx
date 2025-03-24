@@ -1,5 +1,4 @@
 import React from "react";
-import { Jost } from "next/font/google";
 import Link from "next/link";
 import { FaDiscord } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
