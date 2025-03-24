@@ -8,7 +8,7 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "BetterStep | Your Steps Have Real Value",
+  title: "BetterStep | Your steps have real value",
   description:
     "Earn rewards by walking, running, or exercising. Your steps have real value!",
   icons: {
